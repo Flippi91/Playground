@@ -1,0 +1,60 @@
+:root {
+    --black: #505050;
+  }
+  
+/* === Small CSS Reset === */
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+  body {
+    background-color:var(--black);
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    display: grid;
+  }
+  /*
+   Emoji
+  */            
+  .emoji{
+      display: grid;
+      grid-gap: 3px;
+      grid-template-columns: repeat(12, 20px);
+      grid-template-rows: repeat(16, 20px);
+      width: auto;
+      height: auto;
+      justify-self: center;
+      align-self: center;
+  }
+  .items{
+      background-color: var(--black); 
+  }
+  /*Red*/ 
+  .item4,.item5,.item6,.item7,.item8,.item15,.item16,.item17,.item18,.item19,.item20,.item21,
+  .item22,.item23,.item87,.item88,.item90,.item91,.item93,.item94,.item98,.item99,.item100,.item102,.item103,.item105,.item106,.item107,.item108,.item109,.item110,.item111,.item112,.item117,.item118,.item119,.item120,.item123,.item130{
+      background-color:red;
+  }
+  /*Brown*/
+  .item27,.item28,.item29,.item38,.item40,.item50,.item52,.item53,.item63,.item170,.item171,.item172,.item177,.item178,.item179,.item181,.item182,.item183,.item184,.item189,.item190,.item191,.item192{
+    background-color:rgb(65, 34, 34);
+}
+
+ /*skin*/
+ .item30,.item31,.item33,.item39,.item41,.item42,.item43,.item45,.item46,.item47,.item51,.item54,.item55,.item56,.item58,.item59,.item60,.item64,.item65,.item66,.item67,.item76,.item77,.item78,.item79,.item80,.item81,.item121,.item122,.item66,.item67,.item125,.item128,.item131,.item132,.item133,.item134,.item135,.item142,.item143,.item144,.item145,.item146,.item155,.item156{
+    background-color:rgb(184, 158, 51);
+}
+
+  /*Black*/
+  .item32,.item44,.item57,.item68,.item69,.item70,.item71{
+    background-color:rgb(6, 5, 5);
+}
+  /*Blue*/
+  .item89,.item92,.item101,.item104,.item113,.item114,.item115,.item116,.item124,.item126,.item127,.item129,.item136,.item137,.item138,.item139,.item140,.item141,.item147,.item148,.item149,.item150,.item151,.item152,.item153,.item154,.item159,.item160,.item161,.item164,.item165,.item166{
+    background-color:rgb(1, 17, 247);
+}
+ 
+  
